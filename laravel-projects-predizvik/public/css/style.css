@@ -1,0 +1,65 @@
+header {
+    height: 50vh;
+}
+
+.widen {
+	height: 70vh;
+}
+
+header .moveup {
+	height: 88%;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+header .bg-light {
+    background: transparent !important;
+}
+
+header h1 {
+    font-size: 4em;
+    font-weight: bold;
+    padding-bottom: 1vw;
+}
+
+header .subtitle {
+	font-size: 2em;
+    padding-bottom: 1vw;
+}
+
+header h4 {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, .7);
+}
+
+main .card {
+	cursor: pointer;
+}
+
+main p {
+	line-height: 1.5em;
+	color: rgba(0, 0, 0, .7);
+}
+
+main form .form-control {
+	border: 0;
+	padding: 2em 0;
+}
+
+main form .form-control:focus {
+	border: 0;
+	outline: 0;
+	box-shadow: none;
+}
+
+main .btn {
+	border-radius: 0 !important;
+}
+
+.social  i {
+	margin: 1% 5%;
+	cursor: pointer;
+}
